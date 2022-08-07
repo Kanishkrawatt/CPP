@@ -41,7 +41,7 @@ for i in range(n):
         #c. List[2] = 4   (List : 1 2 4 3)
      #1. 
         #Exit (j == loc -j)
-# COST = 3
+# COST += 3
 # 2nd Iteration
 # 1 2 4 3 (List = GivenList, initialPos = 1 ,n=4)
 # 2 (loc =1 ),cost =0
@@ -50,7 +50,7 @@ for i in range(n):
      #3.  2 > 3  False:
 # ForLoop(from 1 to 1):
      # Exit 
-# COST = 1
+# COST += 1
 # 3rd Iteration
 # 1 2 4 3 
 # 4 (List = GivenList, initialPos = 2,n =4)
@@ -58,3 +58,4 @@ for i in range(n):
     #1.  4 < 3  true  : min = 3 loc = 3
 # ForLoop(from 2 to 2):
     #2. Exit
+# COST += 2
