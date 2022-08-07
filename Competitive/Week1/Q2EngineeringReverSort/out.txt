@@ -1,0 +1,7 @@
+Else Case
+Case #2: IMPOSSIBLE
+Case #3: 1 2 3 
+Case #4: IMPOSSIBLE
+Case #5: IMPOSSIBLE
+Case #6: 2 1 
+Case #7: IMPOSSIBLE
