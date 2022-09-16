@@ -19,7 +19,10 @@ To Check If a given Number is power of 2
 N   = 4 = (100)
 N-1 = 3 = (011)
 N & N-1 = (100)&(001) = (000) =0
-so, If we have a number N which is power of 2 then bit form of that number has only one setbit so the N-1 number will have all the bits set except the setbit of N meaning if We use & This will always return 0
+so, If we have a number N which is power of 2 
+then bit form of that number has only one setbit so the N-1 number will have all the bits set except 
+the setbit of N meaning if We use & 
+This will always return 0
 
 
 ```
