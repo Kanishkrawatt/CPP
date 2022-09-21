@@ -9,6 +9,6 @@ int main(){
     cin>>num;
     a = int(num);
     b = num -a;
-    cout<<"Interger Part: "<<a<<endl;
+    cout<<"Integer Part: "<<a<<endl;
     cout<<"Fraction Part: "<<b<<endl;
 }
