@@ -3,6 +3,9 @@
 using namespace std;
 
 int main(){
+    
+    cout<<"Kanishk"<<endl;
+    cout<<"07129802021"<<endl;
     int u,t,a;
     cout<<"U : ";
     cin>>u;

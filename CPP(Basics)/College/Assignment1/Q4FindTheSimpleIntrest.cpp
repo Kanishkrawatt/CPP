@@ -4,6 +4,8 @@
 using namespace std;
 
 int main(){
+    cout<<"Kanishk"<<endl;
+    cout<<"07129802021"<<endl;
     int r,t,p;
     cout<<"P : ";
     cin>>p;

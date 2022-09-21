@@ -2,6 +2,8 @@
 using namespace std;
 // Wap to take float and Print the Int part and frac part
 int main(){
+    cout<<"Kanishk"<<endl;
+    cout<<"07129802021"<<endl;
     float num,b;
     int a;
     cin>>num;

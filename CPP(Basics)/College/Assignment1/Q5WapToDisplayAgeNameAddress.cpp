@@ -5,6 +5,8 @@
 using namespace std;
 
 int main(){
+    cout<<"Kanishk"<<endl;
+    cout<<"07129802021"<<endl;
     string name,address;
     int age;
     cout<<"Name : ";
