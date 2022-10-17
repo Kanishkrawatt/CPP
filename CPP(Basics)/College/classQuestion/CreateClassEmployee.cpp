@@ -9,11 +9,10 @@
 # include <bits/stdc++.h>
 # include <string>
 using namespace std;
-
 class Employee{
     public: 
-    int age,address;
-    string name;
+    int age,id;
+    string name,address;
     void getData (){
         cout<<"Enter Name : ";
         getline(cin,name);
@@ -21,12 +20,13 @@ class Employee{
         cin>>age;
         cout<<"Enter Address : ";
         cin>>address;
+        cout<<"Enter Id : ";
+        cin>>id;
     }
     void showData(){
-        cout<<"Name :  "<<name<<endl<<"Age :  "<<age<<"Address :  "<<address<<endl;
+        cout<<"Name :  "<<name<<endl<<"Age :  "<<age<<"Address :  "<<address<<endl<<"Id :  "<<id<<endl;
     }
 };
-
 int main(){
     cout<<"Kanishk"<<endl;
     cout<<"07129802021"<<endl;

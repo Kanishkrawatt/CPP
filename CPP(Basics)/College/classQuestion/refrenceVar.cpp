@@ -7,8 +7,9 @@ using namespace std;
 int main(){
     cout<<"Kanishk"<<endl;
     cout<<"07129802021"<<endl;
-    int num1,num2;
-    cin>>num1>>num2;
-    int &ref = num1;
-    cout<<"Sum of "<<num1<<" and "<<num2 <<" is "<<ref+num2;
+    int a=8;
+	int &ref=a;
+	cout<< "Now Both 'ref' and 'a' will refer to value of a\n";
+	cout<<"The value of a is : "<<a<<endl;
+	cout<<"The value of ref is also : "<<ref;
 }
