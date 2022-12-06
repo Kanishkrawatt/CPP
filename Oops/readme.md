@@ -12,6 +12,7 @@ Object Oriented Programming is a programming model which is based upon the conce
 | [Polymorphism](#polymorphism)                               |
 | [Inheritance](#inheritance)                                 |
 | [Abstraction](#abstraction)                                 |
+| [Constructor-Destructor](/Oops/Constructor-Distructor)      |
 
 ## Difference Between Procedural And Object oriented
 
@@ -45,7 +46,7 @@ Ex:- C++
 - Inheritance
 - Abstraction
 
-# Class
+# [Class](/Oops/Class)
 
 Class is a user defined datatype which holds data and function.
 
@@ -134,7 +135,7 @@ Add function can add 2 numbers (if we pass 2 variables)
 or it can add 3 numbers (if we pass 3 variables)
 ```
 
-#### Inheritance
+#### [Inheritance](/Oops/Inheritance)
 
 It is Basically creating a derived class from an existing class. ie. A class that has the properties (data, function) of the base class
 Defination:
