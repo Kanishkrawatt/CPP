@@ -2,13 +2,13 @@
 
 Object Oriented Programming is a programming model which is based upon the concept of objects.
 
-| Content                                                     |
-| ----------------------------------------------------------- |
-| [Procedural Programming](#procedural-programming)           |
-| [Object Oriented Programming](#object-oriented-programming) |
-| [Class](#class)                                             |
-| [Object](#object)                                           |
-| [Encapsulation](#encapsulation)                             |
+| Content                                                     | Other Topics                         |
+| ----------------------------------------------------------- | ------------------------------------ |
+| [Procedural Programming](#procedural-programming)           | [Object Oriented Programming](/Oops) |
+| [Object Oriented Programming](#object-oriented-programming) | [Data Structure](</CPP(DSA)>)        |
+| [Class](#class)                                             | [Basic C++](</CPP(Basic)>)           |
+| [Object](#object)                                           | [Algorithms](/Algorithms)            |
+| [Encapsulation](#encapsulation)                             | [Competitive Questions ](/compe/)    |
 | [Polymorphism](#polymorphism)                               |
 | [Inheritance](#inheritance)                                 |
 | [Abstraction](#abstraction)                                 |
