@@ -19,6 +19,7 @@ The language has expanded significantly over time, and modern C++ now has [objec
 | [Parameter Passing by Value](#parameter-passing-by-value)         |
 | [Parameter Passing by Reference](#parameter-passing-by-reference) |
 | [Parameter Passing by Pointer](#parameter-passing-by-pointer)     |
+| [Constructor](/Oops/Constructor)                                  |
 
 ##### Difference between C and C++
 
