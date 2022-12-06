@@ -2,7 +2,23 @@
 
 C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".
 
-The language has expanded significantly over time, and modern C++ now has [object-oriented](/Oops), generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, and IBM, so it is available on many platforms.
+The language has expanded significantly over time, and modern C++ now has [object-oriented](/Oops), generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language.
+
+| Content                                                           |
+| ----------------------------------------------------------------- |
+| [C++](#c)                                                         |
+| [Input and Output in C and C++](#input-and-output-in-c-and-c)     |
+| [Constants in C++](#constants-in-c)                               |
+| [Literals](#literals)                                             |
+| [Qualifiers](#qualifiers)                                         |
+| [Operators](#operators)                                           |
+| [Reference variable](#reference-variable)                         |
+| [Functions](#functions)                                           |
+| [Default Arguments](#default-arguments)                           |
+| [Inline Function](#inline-function)                               |
+| [Parameter Passing by Value](#parameter-passing-by-value)         |
+| [Parameter Passing by Reference](#parameter-passing-by-reference) |
+| [Parameter Passing by Pointer](#parameter-passing-by-pointer)     |
 
 | C                                                                | C++                                                         |
 | ---------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -15,7 +31,8 @@ The language has expanded significantly over time, and modern C++ now has [objec
 | It provides **Malloc()** and **Calloc()** for memory allocation  | It provides **New** operator for memory allocation          |
 | It provides **free()** for Memory de-allocation.                 | It provides **Delete**                                      |
 
-Input and Output in C and C++
+##### Input and Output in C and C++
+
 ```cpp
 // Output(print) in C
 int a = 10;
@@ -311,7 +328,7 @@ int a = 10;
 int &b = a;
 ```
 
-#### Function
+#### Functions
 
 A function is a group of statements that together perform a task.
 

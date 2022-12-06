@@ -2,21 +2,27 @@
 
 Difference Between Procedural And Object oriented
 
+| Content                                                                                                   |
+| --------------------------------------------------------------------------------------------------------- |
+| [Procedural Programming](#procedural-programming)                                                         |
+| [Object Oriented Programming](#object-oriented-programming)                                               |
+| [Some Basic Concepts Of Object Oriented Programming](#some-basic-concepts-of-object-oriented-programming) |
+| [Class](#class)                                                                                           |
+| [Object](#object)                                                                                         |
+| [Encapsulation](#encapsulation)                                                                           |
+| [Polymorphism](#polymorphism)                                                                             |
+| [Inheritance](#inheritance)                                                                               |
+| [Abstraction](#abstraction)                                                                               |
+
 ### Procedural Programming
 
-```
 Procedural Programming can be defined as a programing Model which is derived from structured Programming
 Ex:- C
 
-```
-
 ### Object Oriented Programming
 
-```
 Object Oriented Programming can be defined as a programming model which is based upon the concept of objects.
 Ex:- C++
-
-```
 
 | Procedural                                                | Object Oriented                                          |
 | --------------------------------------------------------- | -------------------------------------------------------- |
@@ -45,7 +51,7 @@ Class is a user defined datatype which holds data and function.
 - Data inside the class is called member data and function are called member functions.
   `The Binding of Data and the functions together into a single class type variable is called variable encapsulation, which one of the benefites of Object oriented Programming`
 
-```
+```cpp
 syntex:
 
 class classname
@@ -63,7 +69,7 @@ Type of Access Specifier
 2. Private : It's member are only accessible inside the class
 3. Protected : It's member are only accessible inside the class and the class that is derived from that class
 
-```
+```cpp
 syntex for defining the Function outside the class:
 
 returntype classname::functionName(){
@@ -75,7 +81,7 @@ returntype classname::functionName(){
 
 It is an instence of a class that is varible of a class
 
-```
+```cpp
 syntex To declare Object:
 
 ClassName ObjName;
@@ -90,7 +96,7 @@ In Object Oriented Programming , Encapsulation is the concept of Wrapping of dat
 A formale defination of encapsulation would be :
 `Encapsulation is binding togather the data and related function that can manipulate data.`
 
-```
+```cpp
 example:
 class Encapsulation{
     public:
@@ -110,7 +116,7 @@ data1, data2, func1 is encapsulated inside the class Encapsulation
 The name defines Itself , Poly = "Multiple"&nbsp;&nbsp;morphism = "Forms" &nbsp;&nbsp;=> Multiple Forms <br>
 Which means Polymorphism is the ability of object oriented programming to do some work using multiple forms.
 
-```
+```cpp
 example:
 class Polymorphism{
     public:
@@ -133,7 +139,7 @@ It is Basically creating a derived class from an existing class. ie. A class tha
 Defination:
 ` The capability of a class to derive properties and charactersitics from another class is called Inheritance.`
 
-```
+```cpp
 Syntax:
 class <derived_class_name>:<Access-Specifier> <base_class_name>{
     // Data
@@ -148,7 +154,7 @@ Base class is also called as Superclas and the Derived class is also called as S
 - **Private Mode** : All the Public,Protected data of base class is saved in private of Derived class.
 - **Protected Mode** : All the Public,Protected data of base class is saved in Private of Derived class.
 
-```
+```cpp
 Example:
 class Base{
     public:
@@ -169,29 +175,30 @@ int main(){
 ```
 
 ### Abstraction
+
 Abstraction means Displaying only essential Information and hiding the details . Data abstraction refers to providing only essential information about the data and hiding the background details or implementation.<br>
 example:<br>
 Man Driving a Car : Here he only knows that by pressing the accelerator will increase the speed and breaks will stop the car but he does not know how.
 
-```
-example:  
+```cpp
+example:
 class implementAbstraction {
 private:
     int a, b;
- 
+
 public:
     void set(int x, int y)
     {
         a = x;
         b = y;
-    } 
+    }
     void display()
     {
         cout << "a = " << a << endl;
         cout << "b = " << b << endl;
     }
 };
- 
+
 int main()
 {
     implementAbstraction obj;
@@ -199,55 +206,14 @@ int main()
     obj.display();
     return 0;
 }
-Here we are not allowed to access the variable a and b directly, 
+Here we are not allowed to access the variable a and b directly,
 however,
 set() function call access it and modify the values of A and B.
 ```
 
-
-### Constructor
-
-Types of Constructor
-
-1. Copy constructor
-2. Default constructor
-3. Parameterize constructor
-
-```
-class Cube{
-    public:
-    int size;
-    Cube(int i){   // Parameterize constructor
-        size=i;
-    }
-    Cube(){       // Default Constructor
-        size=10;
-    }
-}
-```
-
-Copy constructor is use to copy the content from one object to another
-
-```
-Class cube{
-    public:
-    int size:
-    Cube(Cube &c1){ // Copy Constructor
-        size = c1.size;
-    }
-}
-```
-
-How to Call the Copy Constructor
-
-```
-cube c2;
-cube c3 (c2); // or cube c3 =c2;
-```
-
 ### Destructors
 
-```
+```cpp
 Class cube{
     public:
     int size:
