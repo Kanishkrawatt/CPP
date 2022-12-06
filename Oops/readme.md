@@ -212,6 +212,14 @@ Here we are not allowed to access the variable a and b directly,
 however,
 set() function call access it and modify the values of A and B.
 ```
+#### Scope Resolution Operator
+
+Scope Resolution Operator is used to access the data and function of the class.
+
+```cpp
+syntex:
+ClassName::functionName();
+```
 
 #### Access Specifiers
 
