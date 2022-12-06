@@ -15,9 +15,7 @@ The language has expanded significantly over time, and modern C++ now has [objec
 | It provides **Malloc()** and **Calloc()** for memory allocation  | It provides **New** operator for memory allocation          |
 | It provides **free()** for Memory de-allocation.                 | It provides **Delete**                                      |
 
-Now,
-Difference In Some Basic Syntax
-
+Input and Output in C and C++
 ```cpp
 // Output(print) in C
 int a = 10;
