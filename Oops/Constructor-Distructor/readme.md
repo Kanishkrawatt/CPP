@@ -31,6 +31,8 @@ Class cube{
 }
 ```
 
+`Multiple constructor can be defined in a class`
+
 ### Destructor
 
 Destructor is use to free the memory allocated to the object
