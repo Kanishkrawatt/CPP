@@ -46,3 +46,11 @@ Class cube{
     }
 }
 ```
+
+Properties:
+
+- It is The instance member function of the Class
+- The name of the destructor is same as the class but with a tilde(~)
+- It can never be static
+- It has not return type
+- It takes no argument

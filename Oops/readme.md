@@ -213,22 +213,115 @@ however,
 set() function call access it and modify the values of A and B.
 ```
 
-### Destructors
+#### Access Specifiers
+
+Access Specifiers are used to define the scope of the data and function within the class.
+
+There are 3 types of Access Specifiers in C++.
+
+1. Public
+   ```cpp
+   class AccessSpecifier{
+       public:
+           int data1;
+           void function1(){
+               cout<<"This is a function";
+           }
+   }
+   We can access the data and function anywhere in the program.
+   with the help of dot operator (.) .
+   ```
+2. Private
+   ```cpp
+   class AccessSpecifier{
+       private:
+           int data1;
+           void function1(){
+               cout<<"This is a function";
+           }
+   }
+   We can access the data and function only inside the class.
+   ```
+3. Protected
+   ```cpp
+   class AccessSpecifier{
+       protected:
+           int data1;
+           void function1(){
+               cout<<"This is a function";
+           }
+   }
+   We can access the data and function only inside the class and the class that is derived from that class.
+   ```
+
+### Arrays within Class
 
 ```cpp
-Class cube{
+class Array{
+    private:
+        int arr[5];
     public:
-    int size:
-    ~Cube(){
-    cout <<"Destructors";
+        void getdata(){
+            for(int i=0;i<5;i++){
+                cin>>arr[i];
+            }
+        }
+        void display(){
+            for(int i=0;i<5;i++){
+                cout<<arr[i]<<" ";
+            }
+        }
+}
+
+Here,
+arr is an array of size 5.
+
+```
+
+### Array of Objects
+
+```cpp
+class Array{
+    private:
+        int data;
+    public:
+        void getdata(){
+            cin>>data;
+        }
+        void display(){
+            cout<<data;
+        }
+}
+
+int main(){
+    Array A[5];
+    for(int i=0;i<5;i++){
+        A[i].getdata();
+    }
+    for(int i=0;i<5;i++){
+        A[i].display();
     }
 }
 ```
 
-Properties:
+### Memory Allocation of Objects
 
-- It is The instance member function of the Class
-- The name of the destructor is same as the class but with a tilde(~)
-- It can never be static
-- It has not return type
-- It takes no argument
+```cpp
+class Memory{
+    private:
+        int data;
+    public:
+        void getdata(){
+            cin>>data;
+        }
+        void display(){
+            cout<<data;
+        }
+}
+
+int main(){
+    Memory *ptr = new Memory;
+    ptr->getdata();
+    ptr->display();
+}
+```

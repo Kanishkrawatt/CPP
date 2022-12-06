@@ -4,6 +4,7 @@ C++ is a general-purpose programming language created by Bjarne Stroustrup as an
 
 The language has expanded significantly over time, and modern C++ now has [object-oriented](/Oops), generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language.
 
+
 | Content                                                           | Other Topics                               |
 | ----------------------------------------------------------------- | ------------------------------------------ |
 | [Difference between C and C++](#difference-between-c-and-c)       | [Object Oriented Programming(oops)](/Oops) |
