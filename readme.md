@@ -48,7 +48,7 @@ example:
 int main()
 {
     const int i = 10;
-    i = 20   // Error ! Cann't change value of i 
+    i = 20   // Error ! Cann't change value of i
              // (since it is a constant)
 }
 
@@ -64,41 +64,44 @@ example:
 
 ```
 
-##### There are 4 types of literals 
-- Integer Literal
-    ```
-    - Decimal Literal
-        examples:
-            0, -1, 100, 20, etc.
-    - Octal Literal (starts with 0)
-        examples:
-            045, 065, 043 , etc.
-    - Hexadecimal Literal (starts with 0x)
-        examples:
-            0x8f, 0x2a, 0x721, etc.
-    - Floating Point Literal
-        It has a integer part, a decimal point,
-        a fractional part , and an exponent part.
-        example:
-            3.14134, 4e-11 , 1E-5,
+##### There are 4 types of literals
 
-    ```
+- Integer Literal
+
+  ```
+  - Decimal Literal
+      examples:
+          0, -1, 100, 20, etc.
+  - Octal Literal (starts with 0)
+      examples:
+          045, 065, 043 , etc.
+  - Hexadecimal Literal (starts with 0x)
+      examples:
+          0x8f, 0x2a, 0x721, etc.
+  - Floating Point Literal
+      It has a integer part, a decimal point,
+      a fractional part , and an exponent part.
+      example:
+          3.14134, 4e-11 , 1E-5,
+
+  ```
+
 - Boolean Literal
-    ```cpp
-    - true
-    - false
-    ```
+  ```cpp
+  - true
+  - false
+  ```
 - Character Literal
-    ```cpp
-    - 'a'
-    - 'b'
-    - 'c'
-    ```
+  ```cpp
+  - 'a'
+  - 'b'
+  - 'c'
+  ```
 - String Literal
-    ```cpp
-    - "Hello World"
-    - "C++"
-    ```
+  ```cpp
+  - "Hello World"
+  - "C++"
+  ```
 
 ##### Qualifiers
 
@@ -113,190 +116,348 @@ Qualifiers are used to modify the meaning of the type.
 Operators are used to perform operations on variables and values.
 
 - **Arithmetic Operators**
-    ```cpp
-    - Addition (+)
-    - Subtraction (-)
-    - Multiplication (*)
-    - Division (/)
-    - Modulus (%)
-    - Increment (++)
-    - Decrement (--)
-    ```
+  ```cpp
+  - Addition (+)
+  - Subtraction (-)
+  - Multiplication (*)
+  - Division (/)
+  - Modulus (%)
+  - Increment (++)
+  - Decrement (--)
+  ```
 - **Relational Operators**
-    ```cpp
-    - Equal to (==)
-    - Not equal to (!=)
-    - Greater than (>)
-    - Less than (<)
-    - Greater than or equal to (>=)
-    - Less than or equal to (<=)
-    ```
+  ```cpp
+  - Equal to (==)
+  - Not equal to (!=)
+  - Greater than (>)
+  - Less than (<)
+  - Greater than or equal to (>=)
+  - Less than or equal to (<=)
+  ```
 - **Logical Operators**
-    ```cpp
-    - Logical AND (&&)
-    - Logical OR (||)
-    - Logical NOT (!)
-    ```
+  ```cpp
+  - Logical AND (&&)
+  - Logical OR (||)
+  - Logical NOT (!)
+  ```
 - **Bitwise Operators**
-    ```cpp
-    - Bitwise AND (&)
-    - Bitwise OR (|)
-    - Bitwise XOR (^)
-    - Bitwise NOT (~)
-    - Bitwise Left Shift (<<)
-    - Bitwise Right Shift (>>)
-    ```
+  ```cpp
+  - Bitwise AND (&)
+  - Bitwise OR (|)
+  - Bitwise XOR (^)
+  - Bitwise NOT (~)
+  - Bitwise Left Shift (<<)
+  - Bitwise Right Shift (>>)
+  ```
 - **Assignment Operators**
-    ```cpp
-    - Assignment (=)
-    - Addition Assignment (+=)
-    - Subtraction Assignment (-=)
-    - Multiplication Assignment (*=)
-    - Division Assignment (/=)
-    - Modulus Assignment (%=)
-    - Left Shift Assignment (<<=)
-    - Right Shift Assignment (>>=)
-    - Bitwise AND Assignment (&=)
-    - Bitwise OR Assignment (|=)
-    - Bitwise XOR Assignment (^=)
-    ```
+  ```cpp
+  - Assignment (=)
+  - Addition Assignment (+=)
+  - Subtraction Assignment (-=)
+  - Multiplication Assignment (*=)
+  - Division Assignment (/=)
+  - Modulus Assignment (%=)
+  - Left Shift Assignment (<<=)
+  - Right Shift Assignment (>>=)
+  - Bitwise AND Assignment (&=)
+  - Bitwise OR Assignment (|=)
+  - Bitwise XOR Assignment (^=)
+  ```
 - **Miscellaneous Operators**
-    ```cpp
-    - Sizeof
-    - Comma (,)
-    - Ternary (?)
-    - Pointer to member (.*)
-    - Member of pointer (->*)
-    ```
+  ```cpp
+  - Sizeof
+  - Comma (,)
+  - Ternary (?)
+  - Pointer to member (.*)
+  - Member of pointer (->*)
+  ```
 - **Conditional Operator**
-    ```cpp
-    Syntax:
-        condition ? expression1 : expression2;
-    ```
-    ```cpp
-    example:
-        int a = 10;
-        int b = 20;
-        int c = a > b ? a : b;
-        cout<<c<<endl;
-    ```
+  ```cpp
+  Syntax:
+      condition ? expression1 : expression2;
+  ```
+  ```cpp
+  example:
+      int a = 10;
+      int b = 20;
+      int c = a > b ? a : b;
+      cout<<c<<endl;
+  ```
 - **sizeof Operator**
-    ```cpp
-    Syntax:
-        sizeof (type)
-    ```
-    ```cpp
-    example:
-        int a = 10;
-        cout<<sizeof(a)<<endl;
-    ```
+  ```cpp
+  Syntax:
+      sizeof (type)
+  ```
+  ```cpp
+  example:
+      int a = 10;
+      cout<<sizeof(a)<<endl;
+  ```
 - **Comma Operator**
-    ```cpp
-    Syntax:
-        expression1, expression2, expression3, ....
-    ```
-    ```
-    example:
-        int a = 10, b = 20, c = 30;
-        cout<<a<<b<<c<<endl;
-    ```
+  ```cpp
+  Syntax:
+      expression1, expression2, expression3, ....
+  ```
+  ```cpp
+  example:
+      int a = 10, b = 20, c = 30;
+      cout<<a<<b<<c<<endl;
+  ```
 - **Pointer to member Operator**
-    ```
-    Syntax:
-        object.*pointer_to_member
-    ```
-    ```cpp
-    example:
-        class A
-        {
-            int a;
-            public:
-                void set(int x)
-                {
-                    a = x;
-                }
-                int get()
-                {
-                    return a;
-                }
-        };
-        int main()
-        {
-            A obj;
-            obj.set(10);
-            int A::*p = &A::a;
-            cout<<obj.*p<<endl;
-        }
-    ```
+  ```cpp
+  Syntax:
+      object.*pointer_to_member
+  ```
+  ```cpp
+  example:
+      class A
+      {
+          int a;
+          public:
+              void set(int x)
+              {
+                  a = x;
+              }
+              int get()
+              {
+                  return a;
+              }
+      };
+      int main()
+      {
+          A obj;
+          obj.set(10);
+          int A::*p = &A::a;
+          cout<<obj.*p<<endl;
+      }
+  ```
 - **Member of pointer Operator**
-    ```
-    Syntax:
-        pointer->*pointer_to_member
-    ```
-    ```cpp
-    example:
-        class A
-        {
-            int a;
-            public:
-                void set(int x)
-                {
-                    a = x;
-                }
-                int get()
-                {
-                    return a;
-                }
-        };
-        int main()
-        {
-            A obj;
-            obj.set(10);
-            int A::*p = &A::a;
-            cout<<obj->*p<<endl;
-        }
-    ```
+  ```cpp
+  Syntax:
+      pointer->*pointer_to_member
+  ```
+  ```cpp
+  example:
+      class A
+      {
+          int a;
+          public:
+              void set(int x)
+              {
+                  a = x;
+              }
+              int get()
+              {
+                  return a;
+              }
+      };
+      int main()
+      {
+          A obj;
+          obj.set(10);
+          int A::*p = &A::a;
+          cout<<obj->*p<<endl;
+      }
+  ```
 - **Type Casting Operator**
-    ```
-    Syntax:
-        (type) expression
-    ```
-    ```cpp
-    example:
-        int a = 10;
-        float b = (float) a;
-        cout<<b<<endl;
-    ```
+  ```cpp
+  Syntax:
+      (type) expression
+  ```
+  ```cpp
+  example:
+      int a = 10;
+      float b = (float) a;
+      cout<<b<<endl;
+  ```
 - **Precedence and Associativity of Operators**
-    ```
-    Precedence:
-        1. ()
-        2. ++, --
-        3. *, /, %
-        4. +, -
-        5. <<, >>
-        6. <, <=, >, >=
-        7. ==, !=
-        8. &
-        9. ^
-        10. |
-        11. &&
-        12. ||
-        13. ?:
-        14. =, +=, -=, *=, /=, %=, <<=, >>=, &=, ^=, |=
-    ```
-    ```
-    Associativity:
-        1. Left to Right
-        2. Right to Left
-    ```
-
+  ```cpp
+  Precedence:
+      1. ()
+      2. ++, --
+      3. *, /, %
+      4. +, -
+      5. <<, >>
+      6. <, <=, >, >=
+      7. ==, !=
+      8. &
+      9. ^
+      10. |
+      11. &&
+      12. ||
+      13. ?:
+      14. =, +=, -=, *=, /=, %=, <<=, >>=, &=, ^=, |=
+  ```
+  ```cpp
+  Associativity:
+      1. Left to Right
+      2. Right to Left
+  ```
 
 #### Reference variable
 
-Reference variable is an alias name of another variable.
+Reference variable is an alias/another name of another variable.
 
 ```cpp
+Syntax:
+    type &reference_variable = variable;
+```
+
+```cpp
+example:
 int a = 10;
 int &b = a;
 ```
+
+#### Function
+
+A function is a group of statements that together perform a task.
+
+```cpp
+Syntax:
+    return_type function_name (parameter list)
+    {
+        body of the function
+    }
+```
+
+```cpp
+example:
+    int add(int a, int b)
+    {
+        return a + b;
+    }
+```
+
+##### Default Arguments
+
+Default arguments are used to provide default
+values to the parameters of a function.
+
+```cpp
+Syntax:
+    return_type function_name (parameter list = default_value)
+    {
+        body of the function
+    }
+```
+
+```cpp
+example:
+    int add(int a, int b = 10)
+    {
+        return a + b;
+    }
+    int main(){
+        cout<<add(10)<<endl; // This will print 20
+    }
+```
+
+##### Inline Function
+
+Inline function is an enhancement feature that improves the execution time and speed of a program.
+
+```cpp
+Syntax:
+    inline return_type function_name (parameter list)
+    {
+        body of the function
+    }
+```
+
+```cpp
+example:
+    inline int add(int a, int b)
+    {
+        return a + b;
+    }
+    int main(){
+        cout<<add(10, 20)<<endl; // This will print 30
+    }
+```
+
+##### Parameter Passing by Value
+
+When a function is called, the values of the actual parameters are copied to the formal parameters of the function. This is called parameter passing by value.
+
+```cpp
+example:
+    void swap(int a, int b)
+    {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
+    int main(){
+        int a = 10, b = 20;
+        swap(a, b);
+        cout<<a<<b<<endl; // This will print 10 20
+    }
+```
+
+##### Parameter Passing by Reference
+
+When a function is called, It will give the address of the actual parameters to the formal parameters of the function. This is called parameter passing by reference.
+
+It allows a function to modify a variable without having to create a copy of it.
+
+```cpp
+example:
+    void swap(int &a, int &b)
+    {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
+    int main(){
+        int a = 10, b = 20;
+        swap(a, b);
+        cout<<a<<b<<endl; // This will print 20 10
+    }
+```
+
+##### Parameter Passing by Pointer
+
+When a function is called, It will pass the memory location of the actual parameters to the formal parameters of the function. This is called parameter passing by pointer.
+
+```cpp
+example:
+    void swap(int *a, int *b)
+    {
+        int temp = *a;
+        *a = *b;
+        *b = temp;
+    }
+    int main(){
+        int a = 10, b = 20;
+        swap(&a, &b);
+        cout<<a<<b<<endl; // This will print 20 10
+    }
+```
+
+**Difference between Parameter Passing by Reference and Pointer**
+
+| Parameter Passing by Reference                           | Parameter Passing by Pointer        |
+| -------------------------------------------------------- | ----------------------------------- |
+| It is **easy** to use.                                   | It is **difficult** to use.         |
+| It is **faster** than pointer.                           | It is **slower** than reference.    |
+| It is **safer** than pointer. because it cannot be NULL. | It is **not safer** than reference. |
+
+##### New and Delete Operator
+
+New and delete operator are used to allocate and deallocate memory dynamically.
+
+```cpp
+Syntax:
+    new data_type;
+    delete pointer;
+```
+
+```cpp
+example:
+    int *p = new int;
+    *p = 10;
+    cout<<*p<<endl; // This will print 10
+    delete p;
+```
+
