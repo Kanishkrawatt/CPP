@@ -1,17 +1,19 @@
 # OOps (Object oriented Programming)
 
-Difference Between Procedural And Object oriented
+Object Oriented Programming is a programming model which is based upon the concept of objects.
 
-| Content                                                                                                   |
-| --------------------------------------------------------------------------------------------------------- |
-| [Procedural Programming](#procedural-programming)                                                         |
-| [Object Oriented Programming](#object-oriented-programming)                                               |
-| [Class](#class)                                                                                           |
-| [Object](#object)                                                                                         |
-| [Encapsulation](#encapsulation)                                                                           |
-| [Polymorphism](#polymorphism)                                                                             |
-| [Inheritance](#inheritance)                                                                               |
-| [Abstraction](#abstraction)                                                                               |
+| Content                                                     |
+| ----------------------------------------------------------- |
+| [Procedural Programming](#procedural-programming)           |
+| [Object Oriented Programming](#object-oriented-programming) |
+| [Class](#class)                                             |
+| [Object](#object)                                           |
+| [Encapsulation](#encapsulation)                             |
+| [Polymorphism](#polymorphism)                               |
+| [Inheritance](#inheritance)                                 |
+| [Abstraction](#abstraction)                                 |
+
+## Difference Between Procedural And Object oriented
 
 ### Procedural Programming
 
