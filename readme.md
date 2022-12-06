@@ -6,7 +6,7 @@ The language has expanded significantly over time, and modern C++ now has [objec
 
 | Content                                                           |
 | ----------------------------------------------------------------- |
-| [C++](#c)                                                         |
+| [Difference between C and C++](#difference-between-c-and-c)       |
 | [Input and Output in C and C++](#input-and-output-in-c-and-c)     |
 | [Constants in C++](#constants-in-c)                               |
 | [Literals](#literals)                                             |
@@ -20,6 +20,7 @@ The language has expanded significantly over time, and modern C++ now has [objec
 | [Parameter Passing by Reference](#parameter-passing-by-reference) |
 | [Parameter Passing by Pointer](#parameter-passing-by-pointer)     |
 
+##### Difference between C and C++
 | C                                                                | C++                                                         |
 | ---------------------------------------------------------------- | ----------------------------------------------------------- |
 | C was developed by **Dennis Ritchie** between _1969_ and _1973_. | C++ was developed by **Bjarne stroustrup** in _1979_.       |
