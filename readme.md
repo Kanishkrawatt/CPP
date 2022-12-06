@@ -4,13 +4,13 @@ C++ is a general-purpose programming language created by Bjarne Stroustrup as an
 
 The language has expanded significantly over time, and modern C++ now has [object-oriented](/Oops), generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language.
 
-| Content                                                           |
-| ----------------------------------------------------------------- |
-| [Difference between C and C++](#difference-between-c-and-c)       |
-| [Input and Output in C and C++](#input-and-output-in-c-and-c)     |
-| [Constants in C++](#constants-in-c)                               |
-| [Literals](#literals)                                             |
-| [Qualifiers](#qualifiers)                                         |
+| Content                                                           | Other Topics                      |
+| ----------------------------------------------------------------- | --------------------------------- |
+| [Difference between C and C++](#difference-between-c-and-c)       | [Competitive Questions ](/compe/) |
+| [Input and Output in C and C++](#input-and-output-in-c-and-c)     | [Data Structure](</CPP(DSA)>)     |
+| [Constants in C++](#constants-in-c)                               | [Basic C++](</CPP(Basic)>)        |
+| [Literals](#literals)                                             | [Algorithms](/Algorithms)         |
+| [Qualifiers](#qualifiers)                                         | [Oops](/Oops)                     |
 | [Operators](#operators)                                           |
 | [Reference variable](#reference-variable)                         |
 | [Functions](#functions)                                           |
@@ -21,6 +21,7 @@ The language has expanded significantly over time, and modern C++ now has [objec
 | [Parameter Passing by Pointer](#parameter-passing-by-pointer)     |
 
 ##### Difference between C and C++
+
 | C                                                                | C++                                                         |
 | ---------------------------------------------------------------- | ----------------------------------------------------------- |
 | C was developed by **Dennis Ritchie** between _1969_ and _1973_. | C++ was developed by **Bjarne stroustrup** in _1979_.       |
