@@ -6,7 +6,6 @@ Difference Between Procedural And Object oriented
 | --------------------------------------------------------------------------------------------------------- |
 | [Procedural Programming](#procedural-programming)                                                         |
 | [Object Oriented Programming](#object-oriented-programming)                                               |
-| [Some Basic Concepts Of Object Oriented Programming](#some-basic-concepts-of-object-oriented-programming) |
 | [Class](#class)                                                                                           |
 | [Object](#object)                                                                                         |
 | [Encapsulation](#encapsulation)                                                                           |
