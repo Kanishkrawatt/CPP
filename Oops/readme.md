@@ -210,8 +210,9 @@ set() function call access it and modify the values of A and B.
 ```
 #### Scope Resolution Operator
 
-Scope Resolution Operator is used to access the data and function of the class outside the class.
-it is denoted by :: (double colon) operator.
+It is used to access Global variable when there is a Local variable with the same name. 
+and also used to define or access the function and data outside the class.It is also used to access the static variable and function.<br>
+It is denoted by :: (double colon) operator.
 
 ```cpp
 syntax:
