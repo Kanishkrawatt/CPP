@@ -54,7 +54,7 @@ Class is a user defined datatype which holds data and function.
   `The Binding of Data and the functions together into a single class type variable is called variable encapsulation, which one of the benefites of Object oriented Programming`
 
 ```cpp
-syntex:
+syntax:
 
 class classname
 {
@@ -72,7 +72,7 @@ Type of Access Specifier
 3. Protected : It's member are only accessible inside the class and the class that is derived from that class
 
 ```cpp
-syntex for defining the Function outside the class:
+syntax for defining the Function outside the class:
 
 returntype classname::functionName(){
     cout<<"HEllo";
@@ -84,7 +84,7 @@ returntype classname::functionName(){
 It is an instence of a class that is varible of a class
 
 ```cpp
-syntex To declare Object:
+syntax To declare Object:
 
 ClassName ObjName;
 
@@ -217,7 +217,7 @@ set() function call access it and modify the values of A and B.
 Scope Resolution Operator is used to access the data and function of the class.
 
 ```cpp
-syntex:
+syntax:
 ClassName::functionName();
 ```
 
