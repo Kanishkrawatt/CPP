@@ -146,8 +146,6 @@ class <derived_class_name>:<Access-Specifier> <base_class_name>{
 }
 ```
 
-Base class is also called as Superclas and the Derived class is also called as Sub class.
-
 ##### Types of Modes (Access-Specifiers)
 
 - **Public Mode** : All the Public data of base class is saved in Public of Derived class, Private data of the base class is saved in Protected of the Derived Class.
