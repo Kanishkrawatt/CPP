@@ -137,9 +137,7 @@ or it can add 3 numbers (if we pass 3 variables)
 
 #### [Inheritance](/Oops/Inheritance)
 
-It is Basically creating a derived class from an existing class. ie. A class that has the properties (data, function) of the base class
-Defination:
-` The capability of a class to derive properties and charactersitics from another class is called Inheritance.`
+Inheritance is a way to reuse code. It is a way to create a new class from an existing class. The new class is called a subclass (or derived class, or child class). The one it inherits from is called a superclass (or base class, or parent class). The Subclass inherits all the methods and variables from the superclass. It can also add its own methods and variables.
 
 ```cpp
 Syntax:
