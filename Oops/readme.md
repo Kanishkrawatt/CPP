@@ -331,3 +331,47 @@ int main(){
     ptr->display();
 }
 ```
+
+### Operator Overloading
+
+We give Special meaning to a particular operator
+
+```cpp
+Operator's that can't be overloaded
+1. Conditional (?:)
+2. Scope resolution (::)
+3. SizeOf (sizeof())
+4. Membership (.)
+5. Pointer to member (.*)
+```
+
+#### Overloading in Unary Operator
+```cpp
+Syntax:
+return_type operator operator_symbol(){
+    // Code
+}
+```
+
+```cpp
+class Unary{
+    private:
+        int data;
+    public:
+        void getdata(){
+            cin>>data;
+        }
+        void display(){
+            cout<<data;
+        }
+        void operator--(){
+            data = --data;
+        }
+}
+int main(){
+    Unary U1;
+    U1.getdata();
+    --U1;
+    U1.display();
+}
+```
