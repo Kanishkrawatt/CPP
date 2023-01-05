@@ -1,33 +1,22 @@
 #include <iostream>
-
 using namespace std;
-
 class Complex{
     public:
     int real;
     int imag;
     Complex(int r,int i){
         real =r;
-        imag = i;
-    }
+        imag = i;}
     void getData(){
         cout<<"Enter The Real Part : ";
         cin>>real;
-        cout<<"Enter the Imagenary Part";
-    }
+        cout<<"Enter the Imagenary Part";}
     void showData(){
-        cout<<real<<"+"<<imag<<"i";
-    }
+        cout<<real<<"+"<<imag<<"i";}
     void operator++(int){ 
         real++;
-        imag++;
-    }
-
-};
-
+        imag++;}};
 int main(){
     Complex c1(2,4);
     c1++;
-    c1.showData();
-
-}
+    c1.showData();}
