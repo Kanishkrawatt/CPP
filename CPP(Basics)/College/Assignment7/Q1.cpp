@@ -1,5 +1,4 @@
-#include <bits/stdc++.h>
-
+#include <iostream>
 using namespace std;
 class Base{
     public: 
@@ -12,7 +11,6 @@ class Derived:public Base{
         Derived(){
             cout<<"This is A Derived Class Constructor"<<endl;
         }
-        
 };
 int main(){
     Derived D1;
