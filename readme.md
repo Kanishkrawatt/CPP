@@ -4,14 +4,14 @@ C++ is a general-purpose programming language created by Bjarne Stroustrup as an
 
 The language has expanded significantly over time, and modern C++ now has [object-oriented](/Oops), generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language.
 
-| Content                                                           | Other Topics                                       |
-| ----------------------------------------------------------------- | -------------------------------------------------- |
-| [Difference between C and C++](#difference-between-c-and-c)       | [Object Oriented Programming(oops)](/Oops)         |
-| [Input and Output in C and C++](#input-and-output-in-c-and-c)     | [Data Structure](</CPP(DSA)>)                      |
-| [Constants in C++](#constants-in-c)                               | [Basic C++](</CPP(Basic)>)                         |
-| [Literals](#literals)                                             | [Algorithms](/Algorithms)                          |
-| [Qualifiers](#qualifiers)                                         | [Competitive Questions](/compe)                    |
-| [Operators](#operators)                                           | [Operator Overloading](/Oops/OperatorOverloading/) |
+| Content                                                           | Other Topics                               |
+| ----------------------------------------------------------------- | ------------------------------------------ |
+| [Difference between C and C++](#difference-between-c-and-c)       | [Object Oriented Programming(oops)](/Oops) |
+| [Input and Output in C and C++](#input-and-output-in-c-and-c)     | [Data Structure](</CPP(DSA)>)              |
+| [Constants in C++](#constants-in-c)                               | [Basic C++](</CPP(Basic)>)                 |
+| [Literals](#literals)                                             | [Algorithms](/Algorithms)                  |
+| [Qualifiers](#qualifiers)                                         | [Competitive Questions](/compe)            |
+| [Operators](#operators)                                           |
 | [Reference variable](#reference-variable)                         |
 | [Functions](#functions)                                           |
 | [Default Arguments](#default-arguments)                           |
@@ -19,7 +19,10 @@ The language has expanded significantly over time, and modern C++ now has [objec
 | [Parameter Passing by Value](#parameter-passing-by-value)         |
 | [Parameter Passing by Reference](#parameter-passing-by-reference) |
 | [Parameter Passing by Pointer](#parameter-passing-by-pointer)     |
-| [Constructor/Distructor](/Oops/Constructor-Distructor)            |
+| [Constructor/Distructor](/Oops/Constructor-Distructor/readme.md)  |
+| [Inheritance](/Oops/Inheritance/readme.md)                        |
+| [Polymorphism](/Oops/Polymorphism/readme.md)                      |
+| [Operator Overloading](/Oops/OperatorOverloading/readme.md)       |
 
 ##### Difference between C and C++
 
