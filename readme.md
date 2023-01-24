@@ -11,7 +11,7 @@ The language has expanded significantly over time, and modern C++ now has [objec
 | [Constants in C++](#constants-in-c)                               | [Basic C++](</CPP(Basic)>)                 |
 | [Literals](#literals)                                             | [Algorithms](/Algorithms)                  |
 | [Qualifiers](#qualifiers)                                         | [Competitive Questions](/compe)            |
-| [Operators](#operators)                                           |
+| [Operators](#operators)                                           | 
 | [Reference variable](#reference-variable)                         |
 | [Functions](#functions)                                           |
 | [Default Arguments](#default-arguments)                           |
