@@ -23,7 +23,10 @@ The language has expanded significantly over time, and modern C++ now has [objec
 | [Inheritance](/Oops/Inheritance/readme.md)                        |
 | [Polymorphism](/Oops/Polymorphism/readme.md)                      |
 | [Operator Overloading](/Oops/OperatorOverloading/readme.md)       |
+| [Virtual Function](/Oops/VirtualFunction/readme.md)               |
 | [Parametric Polymorphism](/Oops/ParametricPolymorphism/readme.md) |
+| [Exception Handling](/Oops/ExceptionHandling/readme.md)           |
+| [Stream](/Oops/Stream/readme.md)                                  |
 
 ##### Difference between C and C++
 
