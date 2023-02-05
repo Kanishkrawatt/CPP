@@ -39,6 +39,28 @@ C++ provides the following methods to open a file:
 - open(): This function is used to open a file.
 - close(): This function is used to close a file.
 
+### Example of opening/creating a file using the open() function
+```cpp
+#include<iostream>
+#include <fstream>
+using namespace std;
+int main()
+{
+fstream new_file; 
+new_file.open("new_file",ios::out);  
+if(!new_file) 
+{
+cout<<"File creation failed";
+}
+else
+{
+cout<<"New file created";
+new_file.close(); // Step 4: Closing file
+}
+return 0;
+}
+```
+
 C++ provides the following modes to open a file:
 - ios::in: This mode is used to open a file for reading.
 - ios::out: This mode is used to open a file for writing.
