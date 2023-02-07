@@ -12,7 +12,7 @@ Object Oriented Programming is a programming model which is based upon the conce
 | [Polymorphism](#polymorphism)                               |
 | [Inheritance](#inheritance)                                 |
 | [Abstraction](#abstraction)                                 |
-| [Constructor-Destructor](/Oops/Constructor-Distructor)      |
+| [Constructor-Destructor](/Oops/Constructor-Destructor)      |
 
 ## Difference Between Procedural And Object oriented
 
