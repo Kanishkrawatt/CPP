@@ -4,12 +4,12 @@ C++ is a general-purpose programming language created by Bjarne Stroustrup as an
 
 The language has expanded significantly over time, and modern C++ now has [object-oriented](/Oops), generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language.
 
-| Content                                                           | Other Topics                               | Units                                 |
-| ----------------------------------------------------------------- | ------------------------------------------ | ------------------------------------- |
-| [Difference between C and C++](#difference-between-c-and-c)       | [Object Oriented Programming(oops)](/Oops) | [Unit 1](#difference-between-c-and-c) |
-| [Input and Output in C and C++](#input-and-output-in-c-and-c)     | [Data Structure](</CPP(DSA)>)              | [Unit 2](/Oops/)                                |
-| [Constants in C++](#constants-in-c)                               | [Basic C++](</CPP(Basic)>)                 | [Unit 3](/Oops/)                                |
-| [Literals](#literals)                                             | [Algorithms](/Algorithms)                  | [Unit 4](/Oops/)                                 |
+| Content                                                           | Other Topics                               | Units                                                                                                                                                |
+| ----------------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Difference between C and C++](#difference-between-c-and-c)       | [Object Oriented Programming(oops)](/Oops) | [Unit 1](#difference-between-c-and-c)                                                                                                                |
+| [Input and Output in C and C++](#input-and-output-in-c-and-c)     | [Data Structure](</CPP(DSA)>)              | Unit 2 : [Classes](/Oops/Class/) , [Constructor-Destructors](/Oops/Constructor-Destructor/)                                                          |
+| [Constants in C++](#constants-in-c)                               | [Basic C++](</CPP(Basic)>)                 | Unit 3 : [Inheritance](/Oops/Inheritance/) , [Polymorphism](/Oops/Polymorphism/) , [Operator Overloading](/Oops/OperatorOverloading/)                |
+| [Literals](#literals)                                             | [Algorithms](/Algorithms)                  | Unit 4 : [Parametric polymorphism](/Oops/ParametricPolymorphism/) , [Exception Handling](/Oops/ExceptionHandling/) , [Streams &Files](/Oops/Stream/) |
 | [Qualifiers](#qualifiers)                                         | [Competitive Questions](/compe)            |
 | [Operators](#operators)                                           |
 | [Reference variable](#reference-variable)                         |
