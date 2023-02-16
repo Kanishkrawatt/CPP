@@ -208,6 +208,23 @@ Here we are not allowed to access the variable a and b directly,
 however,
 set() function call access it and modify the values of A and B.
 ```
+
+##### Applications of OOps
+- Mobile applications (particularly Android based)
+- Games
+- Graphical User Interface Design
+- Big Data applications
+
+##### Benefits of OOps 
+- Troubleshooting is easier with the OOP language
+- Code Reusability
+- Productivity
+- Data Redundancy
+- Code Flexibility
+- Solving problems
+- Security
+
+
 #### Scope Resolution Operator
 
 It is used to access Global variable when there is a Local variable with the same name. 
