@@ -474,7 +474,7 @@ Derived class
 
 ### Aggregation
 
-Aggregation is a special type of association in which all objects have their own lifecycle and there is no owner. It represents a HAS-A relationship.
+In C++, aggregation is a process in which one class defines another class as any entity reference. It is another way to reuse the class. It is a form of association that represents HAS-A relationship.
 
 ```cpp
 Example:
@@ -502,9 +502,9 @@ class Department
 {
 private:
     string name;
-    Employee manager;
+    Employee* manager;
 public:
-    Department(string name, Employee manager)
+    Department(string name, Employee* manager)
     {
         this->name = name;
         this->manager = manager;
@@ -512,16 +512,18 @@ public:
     void display()
     {
         cout << "Department: " << name << endl;
-        cout << "Manager: " << endl;
-        manager.display();
-    }
+        manager->display();
+    }   
 };
 
 int main()
 {
     Employee e1("John", 30);
-    Department d1("Sales", e1);
+    Employee e2("Smith", 35);
+    Department d1("Sales", &e1);
+    Department d2("Marketing", &e2);
     d1.display();
+    d2.display();
     return 0;
 }
 ```
@@ -530,10 +532,16 @@ Output:
 
 ```
 Department: Sales
-Manager:
 Name: John
 Age: 30
+Department: Marketing
+Name: Smith
+Age: 35
 ```
+
+
+
+
 
 ### Composition
 
