@@ -515,14 +515,14 @@ public:
 
 ### Difference between Aggregation and Composition
 
-| Composition                                                                                                                       | Aggregation                                                                                                                |
-| --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| The composed object is a part of the containing object and can't exist without it.                                                | The aggregate object can exist independently from the object that contains it.                                                 |
-| The containing object is responsible for the composed object's lifetime and management.                                           | The containing object does not have complete responsibility for the aggregate object's lifetime and management.                |
-| The composed object is often created when the containing object is created and destroyed when the containing object is destroyed. | The aggregate object can be shared between multiple objects and can exist even after the object that contains it is destroyed. |
-| The containing object is responsible for initializing the composed object.                                                        | The aggregate object can be created and initialized independently of the containing object.                                    |
-| Changes to the containing object can affect the state of the composed object.                                                     | Changes to the containing object do not affect the state of the aggregate object.                                              |
-| The composed object is usually implemented as a member variable of the containing object.                                         | The aggregate object can be implemented as a member variable, pointer, or reference of the containing object.                  |
+| Composition                                                                                                                       | Aggregation                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| The composed object is a part of the containing object and can't exist without it.                                                | The composed object can exist independently from the object that contains it.                                                 |
+| The containing object is responsible for the composed object's lifetime and management.                                           | The containing object does not have complete responsibility for the composed object's lifetime and management.                |
+| The composed object is often created when the containing object is created and destroyed when the containing object is destroyed. | The composed object can be shared between multiple objects and can exist even after the object that contains it is destroyed. |
+| The containing object is responsible for initializing the composed object.                                                        | The composed object can be created and initialized independently of the containing object.                                    |
+| Changes to the containing object can affect the state of the composed object.                                                     | Changes to the containing object do not affect the state of the composed object.                                              |
+| The composed object is usually implemented as a member variable of the containing object.                                         | The composed object can be implemented as a member variable, pointer, or reference of the containing object.                  |
 
 ### Virtual Base Class
 
