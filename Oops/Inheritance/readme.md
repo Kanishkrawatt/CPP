@@ -515,14 +515,14 @@ public:
 
 ### Difference between Aggregation and Composition
 
-| Composition                                                                                                                       | Aggregation                                                                                                                   |
-| --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| The composed object is an integral part of the containing object and may not have independent existence.                          | The Aggreate object has an independent existence and can exist outside the scope of the object that contains it.              |
-| The containing object has complete responsibility for the lifetime and management of the composed object.                         | The containing object does not have complete responsibility for the lifetime and management of the Aggreate object.           |
-| The composed object is often created when the containing object is created and destroyed when the containing object is destroyed. | The Aggreate object can be shared between multiple objects and can exist even after the object that contains it is destroyed. |
-| The containing object is responsible for initializing the composed object.                                                        | The Aggreate object can be created and initialized independently of the containing object.                                    |
-| Changes to the containing object can affect the state of the composed object.                                                     | Changes to the containing object do not affect the state of the Aggreate object.                                              |
-| The composed object is usually implemented as a member variable of the containing object.                                         | The Aggreate object can be implemented as a member variable, pointer, or reference of the containing object.                  |
+| Composition                                                                                                                       | Aggregation                                                                                                                |
+| --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| The composed object is a part of the containing object and can't exist without it.                                                | The Aggre object can exist independently from the object that contains it.                                                 |
+| The containing object is responsible for the composed object's lifetime and management.                                           | The containing object does not have complete responsibility for the Aggre object's lifetime and management.                |
+| The composed object is often created when the containing object is created and destroyed when the containing object is destroyed. | The Aggre object can be shared between multiple objects and can exist even after the object that contains it is destroyed. |
+| The containing object is responsible for initializing the composed object.                                                        | The Aggre object can be created and initialized independently of the containing object.                                    |
+| Changes to the containing object can affect the state of the composed object.                                                     | Changes to the containing object do not affect the state of the Aggre object.                                              |
+| The composed object is usually implemented as a member variable of the containing object.                                         | The Aggre object can be implemented as a member variable, pointer, or reference of the containing object.                  |
 
 ### Virtual Base Class
 
