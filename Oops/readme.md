@@ -150,7 +150,7 @@ class <derived_class_name>:<Access-Specifier> <base_class_name>{
 
 - **Public Mode** : All the Public data of base class is saved in Public of Derived class, Private data of the base class is saved in Protected of the Derived Class.
 - **Private Mode** : All the Public,Protected data of base class is saved in private of Derived class.
-- **Protected Mode** : All the Public,Protected data of base class is saved in protected  of Derived class.
+- **Protected Mode** : All the Public,Protected data of base class is saved in protected of Derived class.
 
 ```cpp
 Example:
@@ -210,24 +210,36 @@ set() function call access it and modify the values of A and B.
 ```
 
 ##### Applications of OOps
-- Mobile applications (particularly Android based)
-- Games
+
+- Mobile applications (particularly Android based) :
+  Mobile applications are developed using OOPs concepts. The Android SDK is written in Java and the Android operating system is based on the Linux kernel. The Android SDK provides a set of tools and APIs that allow developers to write applications using the Java programming language.
+- Games :
+  Games are developed using OOPs concepts. The game engine is written in C++ and the game is developed using C++. The game engine provides a set of tools and APIs that allow developers to write games using the C++ programming language.
 - Graphical User Interface Design
-- Big Data applications
+  GUI is developed using OOPs concepts. The GUI toolkit is written in C++ and the GUI is developed using C++. The GUI toolkit provides a set of tools and APIs that allow developers to write GUI using the C++ programming language.
+- Web Applications
+  Web applications are developed using OOPs concepts. The web application framework is written in Java and the web application is developed using Java. The web application framework provides a set of tools and APIs that allow developers to write web applications using the Java programming language.
 
-##### Benefits of OOps 
-- Troubleshooting is easier with the OOP language
-- Code Reusability
-- Productivity
-- Data Redundancy
-- Code Flexibility
-- Solving problems
-- Security
+##### Benefits of OOps
 
+- Troubleshooting is easier with the OOP language :
+  The OOP language is easier to troubleshoot because it is more organized and structured.
+- Code Reusability :
+  Reusability is one of the most important benefits of OOP. It allows you to reuse the code and save time and effort.
+- Productivity :
+  Productivity is another important benefit of OOP. It allows you to develop the application faster and more efficiently.
+- Data Redundancy :
+  Data redundancy is another important benefit of OOP. It allows you to avoid data redundancy and save time and effort.
+- Code Flexibility :
+  Code flexibility is another important benefit of OOP. It allows you to change the code easily and quickly.
+- Solving problems :
+  OOP allows you to solve the problems easily and quickly.
+- Security :
+  OOP allows you to develop the application more securely.
 
 #### Scope Resolution Operator
 
-It is used to access Global variable when there is a Local variable with the same name. 
+It is used to access Global variable when there is a Local variable with the same name.
 and also used to define or access the function and data outside the class.It is also used to access the static variable and function.<br>
 It is denoted by :: (double colon) operator.
 
@@ -363,6 +375,7 @@ Operator's that can't be overloaded
 ```
 
 #### Overloading in Unary Operator
+
 ```cpp
 Syntax:
 return_type operator operator_symbol(){
