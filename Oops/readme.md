@@ -101,8 +101,8 @@ A formale defination of encapsulation would be :
 ```cpp
 example:
 class Encapsulation{
+    int data1, data2;
     public:
-        int data1, data2;
         void func1(){
             cout<<"This a Function";
         }
