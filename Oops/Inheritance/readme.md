@@ -474,137 +474,55 @@ Derived class
 
 ### Aggregation
 
-In C++, aggregation is a process in which one class defines another class as any entity reference. It is another way to reuse the class. It is a form of association that represents HAS-A relationship.
+Aggregation is a type of association between two objects in object-oriented programming where one object "has" or "owns" another object. It is a relationship in which the composed object has an independent existence and can exist outside the scope of the object that contains it.
+
+In an aggregation relationship, the lifetime of the composed object is not dependent on the lifetime of the object that contains it. This means that the composed object can be shared between multiple objects and can exist independently even after the object that contains it is destroyed.
 
 ```cpp
 Example:
-// class Employee
-class Employee
-{
+class Car {
 private:
-    string name;
-    int age;
+  Engine* engine;
+
 public:
-    Employee(string name, int age)
-    {
-        this->name = name;
-        this->age = age;
-    }
-    void display()
-    {
-        cout << "Name: " << name << endl;
-        cout << "Age: " << age << endl;
-    }
+  Car(Engine* engine) : engine(engine) {}
+  // car methods that use the engine
 };
 
-// class Department
-class Department
-{
-private:
-    string name;
-    Employee* manager;
-public:
-    Department(string name, Employee* manager)
-    {
-        this->name = name;
-        this->manager = manager;
-    }
-    void display()
-    {
-        cout << "Department: " << name << endl;
-        manager->display();
-    }   
-};
-
-int main()
-{
-    Employee e1("John", 30);
-    Employee e2("Smith", 35);
-    Department d1("Sales", &e1);
-    Department d2("Marketing", &e2);
-    d1.display();
-    d2.display();
-    return 0;
-}
 ```
-
-Output:
-
-```
-Department: Sales
-Name: John
-Age: 30
-Department: Marketing
-Name: Smith
-Age: 35
-```
-
-
-
-
 
 ### Composition
 
-Composition is a special type of association in which all objects have their own lifecycle and there is an owner. It represents a HAS-A relationship.
+In C++, composition is a way of designing a class by including other classes as member variables. Composition is a fundamental principle of object-oriented programming that allows you to create more complex objects by combining simpler ones.
+
+In a composition relationship, the lifetime of the composed object is dependent on the lifetime of the object that contains it. This means that when an object that contains another object is destroyed, the contained object is also destroyed.
 
 ```cpp
 Example:
-// class Employee
-class Employee
-{
-private:
-    string name;
-    int age;
-public:
-    Employee(string name, int age)
-    {
-        this->name = name;
-        this->age = age;
-    }
-    void display()
-    {
-        cout << "Name: " << name << endl;
-        cout << "Age: " << age << endl;
-    }
+class Engine {
+  // engine implementation
 };
 
-// class Department
-class Department
-{
+class Car {
 private:
-    string name;
-    Employee *manager;
+  Engine engine;
+
 public:
-    Department(string name, Employee *manager)
-    {
-        this->name = name;
-        this->manager = manager;
-    }
-    void display()
-    {
-        cout << "Department: " << name << endl;
-        cout << "Manager: " << endl;
-        manager->display();
-    }
+  // car methods that use the engine
 };
 
-int main()
-{
-    Employee e1("John", 30);
-    Department d1("Sales", &e1);
-    d1.display();
-    return 0;
-}
 ```
 
-Output:
+### Difference between Aggregation and Composition
 
-```
-Department: Sales
-Manager:
-Name: John
-Age: 30
-```
+| Composition                                                                                                                       | Aggregation                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| The composed object is an integral part of the containing object and may not have independent existence.                          | The Aggreate object has an independent existence and can exist outside the scope of the object that contains it.              |
+| The containing object has complete responsibility for the lifetime and management of the composed object.                         | The containing object does not have complete responsibility for the lifetime and management of the Aggreate object.           |
+| The composed object is often created when the containing object is created and destroyed when the containing object is destroyed. | The Aggreate object can be shared between multiple objects and can exist even after the object that contains it is destroyed. |
+| The containing object is responsible for initializing the composed object.                                                        | The Aggreate object can be created and initialized independently of the containing object.                                    |
+| Changes to the containing object can affect the state of the composed object.                                                     | Changes to the containing object do not affect the state of the Aggreate object.                                              |
+| The composed object is usually implemented as a member variable of the containing object.                                         | The Aggreate object can be implemented as a member variable, pointer, or reference of the containing object.                  |
 
 ### Virtual Base Class
 
