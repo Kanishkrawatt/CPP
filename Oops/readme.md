@@ -150,7 +150,7 @@ class <derived_class_name>:<Access-Specifier> <base_class_name>{
 
 - **Public Mode** : All the Public data of base class is saved in Public of Derived class, Private data of the base class is saved in Protected of the Derived Class.
 - **Private Mode** : All the Public,Protected data of base class is saved in private of Derived class.
-- **Protected Mode** : All the Public,Protected data of base class is saved in Private of Derived class.
+- **Protected Mode** : All the Public,Protected data of base class is saved in protected  of Derived class.
 
 ```cpp
 Example:
