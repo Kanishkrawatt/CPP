@@ -26,3 +26,8 @@ Important Question
 Differentiate between run-time Polymorphism and compile time Polymorphism
 ```
 
+Answer
+
+| Run Time Polymorphism | Compile Time Polymorphism |
+| --------------------- | ------------------------- |
+| Method Overriding     | Method Overloading        |
