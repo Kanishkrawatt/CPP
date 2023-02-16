@@ -1,5 +1,3 @@
-Virtual Functions: Need for virtual functions, 
-pointer to derived class objects, pure virtual functions, abstract classes
 
 ### Virtual Functions
 
