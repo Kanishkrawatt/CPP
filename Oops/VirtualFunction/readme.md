@@ -47,12 +47,12 @@ In Derived
 
 #### Need for virtual functions
 
-When we use a pointer or a reference of base class type to refer to a derived class object, we can only call the functions that are defined in the base class. If we try to call a function that is not defined in the base class, the compiler will give an error. For example:
-
+When we use a pointer or a reference of base class type to refer to a derived class object, we can only call the functions that are defined in the base class. If we try to call a function that is not defined in the base class, the compiler will give an error.
 
 #### pointer to derived class objects
 
 When we use a pointer or a reference of base class type to refer to a derived class object, we can only call the functions that are defined in the base class. If we try to call a function that is not defined in the base class, the compiler will give an error. For example:
+
 
 ```cpp
 #include <iostream>

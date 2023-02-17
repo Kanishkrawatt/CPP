@@ -1,6 +1,6 @@
 ## Parametrc Polymorphism
 
-Parametric polymorphism is a way to write code that can work with any type. It is a way to write code that is generic over types. It is a way to write code that is generic over values. It is a way to write code that is generic over functions.
+Parametric polymorphism is a way to write code that can work with any type. It is a way to write code that is generic over types. 
 
 ### Generic code
 
